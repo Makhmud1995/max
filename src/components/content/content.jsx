@@ -117,7 +117,7 @@ const Content = () => {
    <First>
 
 <p>WE ARE Atelier Creative Agency</p>
-<Fade left>
+<Fade bottom>
           <h1>Unique UI Kit Template for Creative Agencies</h1>
         </Fade>
         <Flash>
