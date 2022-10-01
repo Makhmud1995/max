@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import Burger from './Burger';
 
 const Nav = styled.nav`
+position: sticky;
   width: 100%;
   height: 80px;
-  border-bottom: 2px solid #f1f1f1;
   padding: 0 20px;
   display: flex;
   justify-content: space-around;
@@ -13,6 +13,8 @@ const Nav = styled.nav`
   align-items: center;
 
   .logo {
+    display: flex;
+    flex: 1;
     padding: 15px 0;
     color: #FFAE2B;
     cursor: pointer;
