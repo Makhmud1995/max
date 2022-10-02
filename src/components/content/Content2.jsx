@@ -6,22 +6,15 @@ console.log("Burgerdata:",Burgerdata)
 
 const Fmap = styled.div`
 width: 100%;
-display: grid;
-grid-template-rows:auto;
 background: #181511;
 border-radius: 0px;
 `
 const Main= styled.div`
 box-sizing: border-box;
-width: 387px;
-height: 315px;
+/* width: 387px;
+height: 315px; */
 border: 1px solid #4B4136;
 img{
-
-    display: grid;
-    grid-template-rows: auto;
-    width: 305px;
-height: 190px;
 background: url(.jpg);
 filter: drop-shadow(0px 8px 24px rgba(0, 0, 0, 0.6));
 border-radius: 0px;
