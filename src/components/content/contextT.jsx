@@ -46,6 +46,30 @@ text-align: center;
 
 color: #FFAE2B;
 }
+@media (max-width: 768px){
+
+  width: 100%;
+height: 400px;
+background: #181511;
+border-radius: 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+h1{
+  width: 200px;
+height: 70px;
+
+font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height, or 117% */
+
+text-align: center;
+
+}
+}
 `
 
 const ContextT = () => {

@@ -6,23 +6,48 @@ console.log("Burgerdata:",Burgerdata)
 
 const Fmap = styled.div`
 width: 100%;
+height: 300px;
 background: #181511;
 border-radius: 0px;
 `
 const Main= styled.div`
 box-sizing: border-box;
-/* width: 387px;
-height: 315px; */
 border: 1px solid #4B4136;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
 img{
-background: url(.jpg);
-filter: drop-shadow(0px 8px 24px rgba(0, 0, 0, 0.6));
-border-radius: 0px;
-padding: 0;
+  width: 305px;
+height: 190px;
+border-radius: 0px
 }
 p{
+  margin-top: 4rem;
+  margin-left: 6rem;
     width: 305px;
 height: 190px;
+color :white
+}
+@media (max-width: 768px) {
+  box-sizing: border-box;
+border: 1px solid #4B4136;
+display: flex;
+align-items: center;
+flex-direction: column;
+img{
+  width: 120px;
+height: 120px;
+border-radius: 0px
+
+}
+p{
+  margin-top: 4rem;
+    width: 40px;
+height: 50px;
+color :white
+}
+  
 }
 
 `
